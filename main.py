@@ -5,8 +5,10 @@ print(matn.rstrip())
 
 # 9-misol
 matn = "oquvchi talaba"
+uzunlik = len(matn)
+print(uzunlik // 3)
 print(matn.capitalize())
-print(len(matn))
+
 
 # 10-misol
 matn = "  DATA SCIENCE  "
@@ -16,6 +18,8 @@ print(matn.lower())
 
 # 11-misol
 matn = "web dasturchi"
+uzunlik = len(matn)
+print(uzunlik // 2)
 print(matn.title())
 print(matn.lstrip())
 
@@ -27,8 +31,10 @@ print(matn.capitalize())
 
 # 13-misol
 matn = "python java c++"
+uzunlik = len(matn)
+print(uzunlik / 5)
 print(matn.upper())
-print(len(matn))
+
 
 # 14-misol
 matn = "  arfifical intelligence  "
@@ -37,6 +43,7 @@ print(matn.title())
 
 # 15-misol
 matn = "SQL VA NoSQL"
+uzunlik = len(matn)
+print(uzunlik // 2)
 print(matn.lower())
 print(matn.capitalize())
-print(len(matn))
